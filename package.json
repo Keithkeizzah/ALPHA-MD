@@ -9,6 +9,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "s": "node index.js", 
     "keith": "pm2 start index.js --attach --max-memory-restart 490M",
+    "alpha": "pm2 start alpha.js --attach",
     "c": "tsc"
     },
   "keywords": [
@@ -30,8 +31,9 @@
     "@xct007/tiktok-scraper": "^1.0.2",  
     "@hapi/boom": "^10.0.1",
     "@types/node": "^18.0.6",
-    "@whiskeysockets/baileys": "github:Keithkeizzah/Baileys",
+     "@whiskeysockets/baileys": "github:Keithkeizzah/Baileys",
     "ytdl-core": "npm:@distube/ytdl-core",
+    "@bochilteam/scraper": "^4.2.4",
     "@google/generative-ai":"^0.1.3",
     "@xaviabot/fb-downloader": "^1.0.14",
     "aptoide-scraper": "^1.0.1",

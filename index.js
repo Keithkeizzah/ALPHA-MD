@@ -43,15 +43,12 @@ const handleCall = require("./vars/anticall");
 //import chalk from 'chalk'
 const autobio = require("./vars/autobio");
 const handleStatus = require("./vars/statushandle");
-const handleGroupParticipantsUpdate = require("./vars/events");
 const handleAutoReply = require("./vars/greet");
 const handleAntiDelete = require("./vars/antidelete");
 const handleAntiLink = require("./vars/antilink");
 const handleEvalCommand = require('./vars/eval');
 const handleAutoBlock = require('./vars/autoblock');
-const handleAntiLinkBadWordsAndTags = require("./vars/groupcontrol");
 const handleAutoReact = require("./vars/autoreact");
-const { activateCrons, handleContactsUpsert } = require('./vars/crons'); 
 const handleAutoRead = require("./vars/autoread");
 const handleAutoLikeStatus = require("./vars/autolikestatus");
 //import chalk from 'chalk'
@@ -69,7 +66,7 @@ const express = require("express");
 const app = express();
 const port = process.env.PORT || 9090;
 
-// Serve static files from the 'public' directory
+// Serve static files from the 'public' directo
 app.use(express.static(path.join(__dirname, 'public')));
 
 
@@ -292,7 +289,7 @@ function mybotpic() {
                 mybotpic
             
             };
-            handleAntiLink(zk, ms, origineMessage, texte, verifGroupe, admins, idBot, auteurMessage, verifAdmin, superUser);
+            
             handleAutoBlock(zk, origineMessage, auteurMessage, superUser, conf);
             handleEvalCommand(zk, texte, origineMessage, superUser, conf, repondre);
             handleStatus(zk, conf);
