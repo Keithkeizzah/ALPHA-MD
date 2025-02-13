@@ -648,7 +648,7 @@ zk.ev.on('group-participants.update', async (group) => {
                 msg += `║ Hello @${membre.split("@")[0]}\n`;
             }
 
-            msg += `║ *You are welcomed here* _You MAY read the group description FOR more info and Avoid getting removed_
+            msg += `║ *You are welcomed here* _kindly introduce yourself  and feel free to interact.dont forget to drop your pic ._
             
      
  ╰═══◇◇═══⊷
@@ -659,7 +659,7 @@ ${metadata.desc}`;
 
             zk.sendMessage(group.id, { image: { url: ppgroup }, caption: msg, mentions: membres });
         } else if (group.action == 'remove' && (await recupevents(group.id, "goodbye") == 'on')) {
-            let msg = `Goodbye to that Fallen soldier, Powered by*;\n`;
+            let msg = `Goodbye ,its sad to see you leave but probably its for the best ...Good luck out there, Powered by*;\n`;
 
             let membres = group.participants;
             for (let membre of membres) {
