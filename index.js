@@ -1,4 +1,4 @@
-"use strict";
+hi"use strict";
 var __createBinding = (this && this.__createBinding) || (Object.create ? (function(o, m, k, k2) {
     if (k2 === undefined) k2 = k;
   var desc = Object.getOwnPropertyDescriptor(m, k);
@@ -648,7 +648,8 @@ zk.ev.on('group-participants.update', async (group) => {
                 msg += `║ Hello @${membre.split("@")[0]}\n`;
             }
 
-            msg += `║ *You are welcomed here* _kindly introduce yourself  and feel free to interact.dont forget to drop your pic ._
+            msg += `║ *You are welcomed here* _kindly introduce yourself  and feel free to interact and dont forget to drop your pic for terry 
+            for more information dm kijana ya tatoo_
             
      
  ╰═══◇◇═══⊷
@@ -659,7 +660,7 @@ ${metadata.desc}`;
 
             zk.sendMessage(group.id, { image: { url: ppgroup }, caption: msg, mentions: membres });
         } else if (group.action == 'remove' && (await recupevents(group.id, "goodbye") == 'on')) {
-            let msg = `Goodbye ,its sad to see you leave but probably its for the best ...Good luck out there, Powered by*;\n`;
+            let msg = `Goodbye ,its sad to see you leave but probably its for the best 👌Good luck out there;\n`;
 
             let membres = group.participants;
             for (let membre of membres) {
