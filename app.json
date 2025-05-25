@@ -29,7 +29,7 @@
       "required": false
     },
     "BOT_NAME": {
-      "description": "You must give a name for your bot",
+      "description": "junior",
       "value": "",
       "required": false
     },
@@ -44,12 +44,12 @@
       "required": false
     },
     "SESSION_ID": {
-      "description": "Enter your session ID, the code you receive after scanning the QR code",
+      "description": "ALPHA;;;H4sIAAAAAAAAA61US46rRhTdS01tPQPGBiy1FMzPGOM/+BNlUKbKGNt8uqrAxk9uZR2ZZBApUUZR1tAbyhIi3O68ll7S6UhhgIqi6t5z7j3nfgZJGlHs4BJ0PoOMRAVkuFqyMsOgA7r5dosJqAMEGQQdcNDLmrlIbLYZNfahP5oPyNiJV55kzcaTHuSbljQ2XGHT7XkP4FoHWb45RsE7AeUJ0/urIA9nQfCoX4w9zrnlxkCtRh8NdnNuIi3TohBT11AfwLWKCCMSJaGR7XCMCTw6uBzDiHwMvqAxnuiPXnd32W1yOkxYgZR4OvJpy3PTE+9Fa46H8lmxTh+DX/bKFTyl8XwjY9LdunYyhPm+kAfCZrjVuVo4K1m7NW7Qwx0+jcIEIxvhhEWs/Hjd7YFZLrpKop+PDmp6ziHmok2sjfPHaCBo5jyMR7phtBfG4WPAXUTNhZVknJaUK64W2q6572rEoYuZstJDDS2yLf9oao0L9xb4mLxq5fBf6m5rQ3NV0OWEF7JUb2SnKdr7yn6wPo8ybZ6Yrr6bHOZqkS25j8HfZZrnjiaBYKdSKsSTk1sOQ08uFzLn14QhZVaWNo6+0rKML/Ahy8l7KIO1NVKbrSbftwwt55as2PF207cw1YJCmzTtdvtQyJJe4rnuX0xXqakNUd9tlVq5R7LDihX0BXFSCPNMCrSDmdlNqKoPN0YHXNoIdPhrHRAcRpQRyKI0qfbaQh1AVMxwQDC7VRdMGbVLlM5b58gJN26YBo7oI4akOI9S7+SsUTwkVNzKZ/oA6iAjaYApxagXUZaS0sWUwhBT0Pn21qiKM8FxynA/QpUNWqLUlkVZ5prCN/TTaQcZhVn2KcEM1MGWpLGLQYeRHNfB7YKh6JwsaDJnKl1RarbaHK9yqmCYQtuQFbNbMYxfks6jGFMG4wx0eEmUBU5qya1r/X/CIYm8qqmi0Da5tqI0jVZb4XSDaxm8JPC6/j4ORbx+VwcJPrMXGVfFb/J1sI0IZV6SZ8cUoleNv/6EQZDmCZuVSaBVC0xA5802ZixKQloxyxNIgl1UYK3iATpbeKT4r35jgtErl/sM01JUybDfH1u+o61Ahb0K9FVtOrz4dXmOt2MSL3KiIItNjm82+epgtV8HCaxigT9+/OH751+Oz78+//T88/Pvm+qFnn9jT09PT1Wx7jSqrAgzGB0p6ADNFhbJo6wbLhxfqGFZqh2qWqiCL7Rf3fQi152PyNBpnzJdbSxMcpmIZ04+7Lz9MD6sjIuJvDCbOFNrHaYPfxMEdMC+zAatc4mkdT5HC5TMutlR2fFl3ltxW2XR9afO2sjGw8KVeo/CdhpkWT+aEtqOZvsorGlrZeYqobE5bza6N+i35dr4pJ4eqmwIF1GA3ybLe4HkrUyltGEIR+qpbS/CmpIpe/8wdnzbso2mEHKaguyhVVyMqBe2ludUEd0j0T0vmXaVcls6dhEv4mSRHono8VSdvPj8NmeO9/ke3S0Y3T63Eb6Ny3tr/rXBL8ArHXLX+psY9wH8D0Osu/KX8DLLqTM5jfkdlLmRi8Z927cv68zquuelbzuedpjGKwdcK0NkR8i2KYlBB8AEkfSmH5LmlbDtZJu+k0zr2nb3zvwIKVO/mOVv/CcJL6fGJM16kO5AB/COuOuJlfJLNctmDLJX7wH19sARuP4J0+ZAQaUIAAA=",
       "value": "",
       "required": true
     },
     "OWNER_NAME": {
-      "description": "Insert your name here",
+      "description": "junior",
       "value": "",
       "required": false
     },
@@ -59,7 +59,7 @@
       "required": true
     },
     "NUMERO_OWNER": {
-      "description": "Your phone number (exclude '+' and area code, e.g., '2547222222233')",
+      "description": "25468488032')",
       "value": "",
       "required": false
     }
