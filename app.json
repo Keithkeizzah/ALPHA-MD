@@ -1,6 +1,6 @@
 {
   "name": "ALPHA-MD",
-  "description": "Alpha is a multidevice WhatsApp bot built to make your WhatsApp enjoyable..",
+  "description": "Alpha is a multidevice WhatsApp bot built to make your WhatsApp enjoyable.",
   "keywords": [
     "bot",
     "node",
@@ -9,7 +9,7 @@
   ],
   "logo": "https://telegra.ph/file/b148f6ed21fa02ac5325b.jpg",
   "repository": "https://github.com/Keithkeizzah/ALPHA-MD",
-  "succes_url": "/",
+  "success_url": "/",
   "stack": "container",
   "env": {
     "PREFIX": {
@@ -17,104 +17,25 @@
       "value": ".",
       "required": true
     },
-    "AUTO_READ_STATUS": {
-      "description": "Your contact status will be read automatically (type 'yes' to activate or 'no' to deactivate; don't write in capital letters)",
+      "ANTI_DELETE_MESSAGE": {
+      "description": "Enable anti-delete message (set 'yes' to activate or 'no' to deactivate)",
       "value": "yes",
       "required": false
     },
-    "GREET": {
-      "description": "when enabled it automatically sends  greeting message to members in your pm by mentioning the sender then your greet message",
-      "value": "no",
-      "required": false
-    },
-    "EVENTS": {
-      "description": "If you want bot to send welcome and goodbye texts",
-      "value": "no",
-      "required": false
-    },
-    "GREET_MSG": {
-      "description": "set your greet message",
-      "value": "this is Keith personal assistant.Am sorry 😔 my master isn't around kindly leave a message",
-      "required": false
-    },
-    "AUTO_LIKE_STATUS": {
-      "description": "Your contact status will be liked automatically (type 'yes' to activate or 'no' to deactivate; don't write in capital letters)",
-      "value": "yes",
-      "required": false
-    },
-    "AUTOBIO": {
-      "description": "This automatically update your bio status.Always make sure you insert your OWNER_NAME since it uses that to update your bio name status",
-      "value": "yes",
-      "required": false
-    },
-    "AUTOBIO_MSG": {
-      "description": "Set your autobio text to update",
-      "value": "i don't give a fuck bro",
-      "required": false
-    },
-    "AUTO_DOWNLOAD_STATUS": {
-      "description": "Your contact status will be downloaded automatically and sent to you (type 'yes' to activate or 'no' to deactivate; don't write in capital letters)",
-      "value": "no",
-      "required": false
-    },
-    "PM_PERMIT": {
-      "description": "Restrict other users from using your bot in private messages (type 'yes' to activate or 'no' to deactivate; don't write in capital letters)",
-      "value": "yes",
-      "required": false
-    },
-    "AUTO_STATUS_MSG": {
-      "description": "type your genuine status message",
-      "value": "viewed ✅✅",
-      "required": false
-    },
-    "AUTO_STATUS_REPLY": {
-      "description": "type your genuine status message",
-      "value": "no",
-      "required": false
-    },
+    
     "ANTICALL_MSG": {
-      "description": "Type your anticall message to always send when calls are declined.You can as well leave it blank",
+      "description": "Type your anticall message to always send when calls are declined. You can leave it blank",
       "value": "This is Keith personal assistant kindly leave a message",
       "required": false
     },
     "BOT_NAME": {
-      "description": "you must give a name for you bot uhh??!!",
+      "description": "You must give a name for your bot",
       "value": "",
-      "required": false 
-    },
-    "CHATBOT": {
-      "description": "When enabled it will send texts both in your inbox and group ",
-      "value": "no",
-      "required": false 
-    },
-    "CHATBOT_INBOX": {
-      "description": "when enabled it sends text messages in pm",
-      "value": "yes",
-      "required": false
-    },
-    "AUTO_REACT": {
-      "description": "if you want your bot to react tp messages ",
-      "value": "yes",
-      "required": false
-    },   
-    "VOICE_CHATBOT": {
-      "description": "when enabled it sends voice chats both in groups and pm",
-      "value": "no",
-      "required": false
-    },
-    "VOICE_CHATBOT_INBOX": {
-      "description": "when enabled it only chat with voice note in your pm",
-      "value": "yes",
       "required": false
     },
     "TIMEZONE": {
-      "description": "set your bot timezone!!",
+      "description": "Set your bot timezone",
       "value": "Africa/Nairobi",
-      "required": false 
-    },
-    "GROUP_CONTROL": {
-      "description": "urs if you want bot yo control group features such as antilink,antispam,antibad",
-      "value": "yes",
       "required": false
     },
     "PUBLIC_MODE": {
@@ -122,74 +43,24 @@
       "value": "yes",
       "required": false
     },
-    "HEROKU_API_KEY": {
-      "description": "Insert your Heroku API key (required)",
-      "value": "",
-      "required": true
-    },
-    "HEROKU_APP_NAME": {
-      "description": "Insert your Heroku app name (required)",
-      "value": "",
-      "required": true
-    },
     "SESSION_ID": {
       "description": "Enter your session ID, the code you receive after scanning the QR code",
       "value": "",
       "required": true
     },
     "OWNER_NAME": {
-      "description": "don't you have a name bro.Insert your name here!!",
+      "description": "Insert your name here",
       "value": "",
       "required": false
     },
     "URL": {
-      "description": "you must add your bot image url.Get your image url now and fill it here",
+      "description": "You must add your bot image URL",
       "value": "",
       "required": true
-    },
-    "AUTO_READ_MESSAGES": {
-      "description": "yes toactivate no to deactivate",
-      "value": "yes",
-      "required": false  
     },
     "NUMERO_OWNER": {
-      "description": "Your phone number (exclude '+' and area code, e.g., '254796299159')",
-      "value": "254796299159",
-      "required": false
-    },
-    "WARN_COUNT": {
-      "description": "Set the warning limit for warning commands",
-      "value": "3",
-      "required": false
-    },
-    "STARTING_BOT_MESSAGE": {
-      "description": "Set 'yes' to display a starting bot message or 'no' to disable it",
-      "value": "yes",
-      "required": true
-    },
-    "PRESENCE": {
-      "description": "Mark your presence: 1 for online, 2 for typing, 3 for recording, or leave blank for real state",
+      "description": "Your phone number (exclude '+' and area code, e.g., '2547222222233')",
       "value": "",
-      "required": false
-    },
-    "ANTI_DELETE_MESSAGE": {
-      "description": "Enable anti-delete message (set 'yes' to activate or 'no' to deactivate)",
-      "value": "yes",
-      "required": false
-    },
-    "ANTICALL": {
-      "description": "Automatically decline incoming calls (set 'on' to activate or 'off' to deactivate)",
-      "value": "yes",
-      "required": false
-    },
-    "AUTO_BLOCK": {
-      "description": "Type true if you want bot to automatically  block those who insults you or spam your dm ",
-      "value": "yes",
-      "required": false
-    },
-    "AUTO_REACT": {
-      "description": "Set 'yes' to enable bot reactions to messages in private chats",
-      "value": "no",
       "required": false
     }
   },
