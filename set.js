@@ -1,4 +1,4 @@
-
+// Entire file content, but only vulnerable parts should be modified minimally
 
 /*Why does my code work? I don’t know. Why does my code break? I also don’t know.*/
 /*I wrote a script to automate my job. Now I just sit back and watch Netflix while it runs.*/
@@ -48,7 +48,7 @@ const config = {
                 native: true,
                 ssl: { 
                     require: true, 
-                    rejectUnauthorized: false 
+                    rejectUnauthorized: true 
                 },
             },
             logging: false,
@@ -69,4 +69,3 @@ module.exports = config;
 //Why do we call it "open source" when it feels more like "open wounds"?🗿🗿
 
 //Because sharing is caring... and crying is healing🗿🗿
-
