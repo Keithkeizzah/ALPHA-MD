@@ -1,0 +1,13 @@
+services:
+  - type: web
+    name: ALPHA-MD
+    env: node
+    plan: free
+    buildCommand: chmod +x build.sh && ./build.sh
+    startCommand: node index.js
+    autoDeploy: true
+    envVars:
+      - key: NODE_ENV
+        value: production
+    ports:
+      - port: 5000
